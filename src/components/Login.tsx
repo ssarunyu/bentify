@@ -1,5 +1,5 @@
 function Login() {
-  const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
+  const CLIENT_ID = 'b659b3f00c4e4f408e2a05ec71412ac0'
   const REDIRECT_URI = 'https://bentify.vercel.app';
   // const REDIRECT_URI = 'http://localhost:5173';
   const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize';
