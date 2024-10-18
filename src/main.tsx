@@ -12,6 +12,9 @@ import Privacy from './components/Privacy';
 
 import './index.css'
 
+// Vercel analytics
+import { Analytics } from "@vercel/analytics/react"
+
 // Router
 const router = createBrowserRouter([
   {
@@ -30,6 +33,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <Analytics />
     <RouterProvider router={router} />
   </StrictMode>,
 )
